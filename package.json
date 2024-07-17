@@ -1,0 +1,42 @@
+{
+  "name": "billtojson.ai",
+  "version": "1.0.0",
+  "description": "The application of 🤖 Artificial Intelligence to PDF invoices results in the generation of JSON data. 📑↔📜",
+  "main": "app.js",
+  "scripts": {
+    "start": "vercel dev",
+    "test": "jest -i"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.36",
+    "ai": "^3.2.24",
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.3.4",
+    "express": "^4.19.2",
+    "googleapis": "^118.0.0",
+    "helmet": "^7.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "js-packtools": "^2.3.18",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.2",
+    "pdf-parse": "^1.1.1",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7"
+  },
+  "keywords": ["Bill", "JSON", "AI", "PDF", "vercel", "SDK-IA", "API", "javascript", "Jasp402", "nodeJS"],
+  "author": {
+    "name": "Jesús Antonio Pérez Sandoval",
+    "email": "jasp402@gmail.com",
+    "url": "https://jasp402.com/",
+    "socials": {
+      "twitter": "https://twitter.com/jasp402",
+      "linkedin": "https://www.linkedin.com/in/jasp402/",
+      "github": "https://github.com/jasp402"
+    }
+  },
+  "license": "ISC"
+}
